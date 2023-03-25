@@ -1,0 +1,33 @@
+# .gitignore
+
+# Ignore PyCharm IDE files
+.idea/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment files
+venv/
+*.venv
+env/
+*.env
+.virtualenv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore saved models
+saved_models/
+
+# Ignore data folder
+data/
+
+# Ignore other common temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
