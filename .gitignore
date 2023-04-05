@@ -3,6 +3,9 @@
 # Ignore PyCharm IDE files
 .idea/
 
+# Ignore VSCode IDE files
+.vscode/
+
 # Ignore Python compiled files
 __pycache__/
 *.pyc
