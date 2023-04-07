@@ -7,6 +7,9 @@ def main(args):
         train_detectron2_model(args)
         print("world domination")
 
+    if args.train_mrcnnn:
+        
+
     print("this is a good code")
 
 
@@ -15,6 +18,12 @@ if __name__ == "__main__":
     parser.add_argument("--train_detectron2", action="store_true", help="Train the Detectron2 model")
     # Add more arguments for other operations, e.g., testing, visualization, etc. (not all is implemented)
 
+    parser2 = argparse.ArgumentParser(description="Mask R-CNN Training")
+    parser2.add_argument("--train_mrcnnn", action="store_true", help="Train the Mask R-CNN model")
+    # Add more arguments for other operations, e.g., testing, visualization, etc. (not all is implemented)
+
     args = parser.parse_args()
     main(args)
+
+
 
